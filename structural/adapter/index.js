@@ -55,6 +55,6 @@ var adaptee = new Adaptee();
 console.log('Client: The Adaptee class has a weird interface.');
 console.log("Adaptee: " + adaptee.specificRequest());
 console.log('');
-console.log('Cliente: But I can work with Adaptee via the Adapter:');
+console.log('Client: But I can work with Adaptee via the Adapter:');
 var adapter = new Adapter(adaptee);
 clientCode(adapter);
